@@ -4,8 +4,5 @@
 
 ## Still to do
 
-- Autogenerate with substitutions
-```wolframlanguage
-ImageOr[a_, b_] := Image[BitOr @@ ImageData /@ Binarize /@ {a, b}]
-```
-- Add other stuff
+- Auto-generate with substitutions.
+- Clean up the `global` and `paths` directories.
